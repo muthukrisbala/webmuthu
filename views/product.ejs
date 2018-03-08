@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Electro &#8211; Electronics Ecommerce Theme</title>
+        <title>WebMuthu</title>
 
         <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css" media="all" />
         <link rel="stylesheet" type="text/css" href="../../css/font-awesome.min.css" media="all" />
@@ -31,7 +31,6 @@
                             <li class="menu-item animate-dropdown"><a title="Welcome to Worldwide Electronics Store" href="#">Welcome to Worldwide Electronics Store</a></li>
                         </ul>
                     </nav>
-
                     <nav>
                         <ul id="menu-top-bar-right" class="nav nav-inline pull-right animate-dropdown flip">
                             <li class="menu-item animate-dropdown"><a title="Store Locator" href="#"><i class="ec ec-map-pointer"></i>Store Locator</a></li>
@@ -42,14 +41,8 @@
                     </nav>
                 </div>
             </div><!-- /.top-bar -->
-
-<% include header-navigation %>
-<% include cart %>
-
-
-
-
-
+                      <% include header-navigation %>
+                      <% include cart %>
                     <ul class="navbar-wishlist nav navbar-nav pull-right flip">
                         <li class="nav-item">
                             <a href="wishlist.html" class="nav-link"><i class="ec ec-favorites"></i></a>
@@ -65,38 +58,21 @@
 
             <div id="content" class="site-content" tabindex="-1">
                 <div class="container">
-
                     <% include breadcum %>
-
                     <div id="primary" class="content-area">
                         <main id="main" class="site-main">
                             <div class="product">
                                 <div class="single-product-wrapper">
-
                                   <% include product-image %>
-
                                   <% include product-summary %>
-
                                   <% include product-action %>
-
-
-
                                 </div><!-- /.single-product-wrapper -->
-
-
-                                                  <% include tab-accessories %>
-
-
-
-
-                                     <% include tab-description %>
-                                      <% include tab-specification %>
-                                        <% include tab-review %>
-
-
+                                  <% include tab-accessories %>
+                                  <% include tab-description %>
+                                  <% include tab-specification %>
+                                  <% include tab-review %>
                                 </div><!-- /.electro-tabs -->
                                  <% include related-products %>
-
                             </div><!-- /.product -->
                         </main><!-- /.site-main -->
                     </div><!-- /.content-area -->
@@ -104,9 +80,7 @@
             </div><!-- /.site-content -->
 
            <% include brands-carousel %>
-              <% include footer %>
-
-
+           <% include footer %>
         </div><!-- #page -->
 
         <script type="text/javascript" src="../../js/jquery.min.js"></script>
