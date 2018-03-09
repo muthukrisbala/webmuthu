@@ -18,13 +18,15 @@
 
     <div itemprop="description">
         <ul>
-            <li>4.5 inch HD Touch Screen (1280 x 720)</li>
-            <li>Android 4.4 KitKat OS</li>
-            <li>1.4 GHz Quad Core™ Processor</li>
-            <li>20 MP front and 28 megapixel CMOS rear camera</li>
+            <li><%=result.specification.display_size %> Touch Screen </li>
+            <li><%=result.specification.operating_system %> OS</li>
+            <li><%=result.specification.processor_type %> Processor</li>
+            <li><%=result.specification.primary_camera %> front and <%=result.specification.secondary_camera %> rear camera</li>
         </ul>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-        <p><strong>SKU</strong>: FW511948218</p>
-    </div><!-- /description -->
 
-</div><!-- .summary -->
+        <p><strong>Model Number</strong>: <%=result.specification.model_number %></p>
+
+    </div>
+
+</div>
+<% include product-action %>

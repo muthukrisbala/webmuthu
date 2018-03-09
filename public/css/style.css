@@ -74,7 +74,7 @@ Table of Contents
 63. Comments
 64. Posts
 65. Woocommerce-checkout
-66. Checkout Page 
+66. Checkout Page
 67. Myaccount Page
 68. Cart Page
 69. Order-received Page
@@ -7419,7 +7419,7 @@ label[for="rememberme"] {
   width: 100%; }
   @media (min-width: 768px) {
     .extended .single-product-wrapper > .product-actions-wrapper {
-      width: 25%; } }
+      width: 100%; } }
 
 div.quantity > label {
   display: none; }
@@ -7742,6 +7742,11 @@ div.quantity > label {
   .single-product .related ul.products > .product {
     width: 25%; } }
 
+    .viewaffiliate {
+      color: #fff;
+      font-weight: bold;
+      font-size: 0.90em;
+    }
 .single_add_to_cart_button.button {
   color: #fff;
   font-weight: bold;
