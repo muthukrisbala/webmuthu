@@ -2,29 +2,23 @@
     <div class="product-actions">
 
 
-        <div itemprop="offers">
-
-            <p class="price">
-                <span class="electro-price"><del><span class="amount">&#36;2,299.00</span></del> <ins><span class="amount">&#36;1,215.00</span></ins></span>
-            </p>
-
-        </div>
-
-        <form class="variations_form cart" method="post">
+      <form class="variations_form cart" method="post">
 
             <table >
                 <tbody>
                     <tr>
                         <td ><img src="../../images/brands/fk-logo.jpg" data-echo="../../images/brands/fk-logo.jpg" class="img-responsive" alt="" width="120" height="75"></td>
                         <td style="font-weight: bold;"><%=result.title.flipkart_title %></td>
-                        <td ><%=result.offerprice.flipkart_offerprice %></td>
-                        <td><button type="submit" class="viewaffiliate">View</button></td>
+                        <td  style="font-weight: bold;"><del>&#8377;<%=result.listprice.flipkart_listprice %></del></td>
+                        <td style="font-weight: bold;">&#8377;<%=result.offerprice.flipkart_offerprice %></td>
+                        <td><a href=<%=result.url.flipkart_url %> ><button type="submit" class="affiliatebutton">View</button></a></td>
                     </tr>
                     <tr>
                         <td ><img src="../../images/brands/amazon-logo.jpg" data-echo="../../images/brands/amazon-logo.jpg" class="img-responsive" alt="" width="120" height="75"></td>
                         <td style="font-weight: bold;"><%=result.title.amazon_title %></td>
-                        <td ><%=result.offerprice.amazon_offerprice %></td>
-                        <td><button type="submit" class="viewaffiliate">View</button></td>
+                        <td style="font-weight: bold;"><del>&#8377;<%=result.listprice.amazon_listprice %></del></td>
+                        <td style="font-weight: bold;">&#8377;<%=result.offerprice.amazon_offerprice %></td>
+                        <td><a href=<%=result.url.amazon_url %>><button type="submit" class="affiliatebutton">View</button></a></td>
                     </tr>
                 </tbody>
             </table>
@@ -41,9 +35,6 @@
             </div>
         </form>
 
-        <div class="action-buttons">
-            <a href="/electro/product/ultra-wireless-s50-headphones-s50-with-bluetooth/?add_to_wishlist=2439" rel="nofollow" class="add_to_wishlist" > Wishlist</a>
-            <a href="/electro/product/ultra-wireless-s50-headphones-s50-with-bluetooth/?action=yith-woocompare-add-product&id=2439" class="add-to-compare-link" data-product_id="2439">Compare</a>
-        </div>
+
     </div>
 </div>

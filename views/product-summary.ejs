@@ -1,19 +1,19 @@
 <div class="summary entry-summary">
     <span class="loop-product-categories">
-        <a href="product-category.html" rel="tag">Headphones</a>
+        <a href="product-category.html" rel="tag"><%=result.category.parent %></a>
     </span><!-- .loop-product-categories -->
 
     <h1 itemprop="name" class="product_title entry-title"><%=result.title.product_title %></h1>
 
-    <div class="woocommerce-product-rating" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+  <!--  <div class="woocommerce-product-rating" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
         <div class="star-rating" title="Rated 4.33 out of 5">
             <span style="width:86.6%"><strong itemprop="ratingValue" class="rating">4.33</strong> out of<span itemprop="bestRating">5</span>based on<span itemprop="ratingCount" class="rating">3</span> customer ratings</span>
         </div>
         <a href="#reviews" class="woocommerce-review-link" rel="nofollow">(<span itemprop="reviewCount" class="count">3</span> customer reviews)</a>
-    </div><!-- .woocommerce-product-rating -->
+    </div> -->
 
     <div class="brand">
-        <a href="product-category.html"><img src="../../images/single-product/brand.png" alt="Asus" /></a>
+        <a href="product-category.html"><img src="../../images/brands/<%=result.category.child %>.jpg" alt=<%=result.category.child %> /></a>
     </div><!-- .brand -->
 
     <div itemprop="description">
@@ -28,5 +28,19 @@
 
     </div>
 
+    <div itemprop="offers">
+
+        <p class="price">
+            <span class="electro-price"><del><span class="amount">&#8377;<%=result.listprice.flipkart_listprice %></span></del> <ins><span class="amount">&#8377;<%=result.offerprice.flipkart_offerprice %></span></ins></span>
+            <button type="submit" class="affiliatebutton" >Buy for Best Price</button>
+        </p>
+
+    </div>
+    <div class="action-buttons">
+        <a href="/electro/product/ultra-wireless-s50-headphones-s50-with-bluetooth/?add_to_wishlist=2439" rel="nofollow" class="add_to_wishlist" > Wishlist</a>
+        <a href="/electro/product/ultra-wireless-s50-headphones-s50-with-bluetooth/?action=yith-woocompare-add-product&id=2439" class="add-to-compare-link" data-product_id="2439">Compare</a>
+    </div>
+
 </div>
+
 <% include product-action %>

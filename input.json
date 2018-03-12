@@ -1,11 +1,15 @@
 {
-    "title": {"product_title": "vivo v7 plus", 
+    "title": {"product_title": "vivo v7 plus",
 	          "flipkart_title": "VIVO V7+ (Matte Black, 64 GB)  (4 GB RAM)",
 			  "amazon_title": "Vivo V7+ (Matte Black, Fullview Display)"},
 	"category":	{ "parent": "mobiles","child": "vivo"},
-	"offerprice": {"flipkart_offerprice": "21990",
-			       "amazon_offerprice": "21990"},
-	"img": "vivo-v7-plus.jpg",
+	"offerprice": {"flipkart_offerprice": "21990","amazon_offerprice": "21990"},
+  "listprice": {"flipkart_listprice": "22990","amazon_listprice": "22990"},
+	"img": {"full_image_1": "http://localhost:3000/images/product/vivo-v7-plus.jpg",
+          "full_image_2": "http://localhost:3000/images/product/vivo-v7-plus-2.jpg",
+          "thumb_image_1": "http://localhost:3000/images/product/vivo-v7-plus-t1.jpg",
+          "thumb_image_2": "http://localhost:3000/images/product/vivo-v7-plus-t2.jpg"
+          },
     "url": {"product_url":"vivo-v7-plus",
 	        "flipkart_url": "https://www.flipkart.com/vivo-v7-matte-black-64-gb/p/itmex3ycdbzjxbnk?pid=MOBEX3YCVHTZT9KA&srno=s_1_1&otracker=search&lid=LSTMOBEX3YCVHTZT9KAXKAIN2&fm=SEARCH&iid=b4a03603-b8e9-431a-87b4-792f78269fe8.MOBEX3YCVHTZT9KA.SEARCH&qH=c26b553b5e480be9&trackingid=muthukris4",
     "amazon_url": "https://www.amazon.in/Vivo-Matte-Black-Fullview-Display/dp/B07547QKYR/ref=sr_1_2?s=electronics&ie=UTF8&qid=1509096186&sr=1-2&keywords=vivo+v7%2B?tag=onltampor-21"},
@@ -18,9 +22,9 @@
 					"title_7":"Face Access","content_7":"Vivo’s new Face Access scans multiple areas of the face, and unlocks after identifying the biological facial features. It’s super simple – just pick up the phone to wake the screen, and Face Access will start immediately to unlock it.",
 					"image_1":"https://www.vivo.com/product/in/v7plus/img/screen5/1.png",
 					"image_2": "https://www.vivo.com/product/in/v7plus/img/screen10_inner/page1/phone@2x.png"
-	
+
 	},
-	
+
     "specification": {"model_number": "1716",
 		"model_name": "V7+",
 		"sim_type": "Dual Sim",

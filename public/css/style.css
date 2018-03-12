@@ -7747,6 +7747,12 @@ div.quantity > label {
       font-weight: bold;
       font-size: 0.90em;
     }
+    .affiliatebutton {
+      background: none #43c801 !important;
+      color: #fff;
+      font-weight: bold;
+
+    }
 .single_add_to_cart_button.button {
   color: #fff;
   font-weight: bold;
