@@ -41,4 +41,49 @@
 		"battery": "3225 mAh",
 		"warranty": "Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories"
 	}
+},
+
+{
+    "title": {"product_title": "OnePlus 5T",
+	          "flipkart_title": "OnePlus 5T Flipkart",
+			  "amazon_title": "OnePlus 5T Amazon"},
+	"category":	{ "parent": "mobiles","child": "vivo"},
+	"offerprice": {"flipkart_offerprice": "21990","amazon_offerprice": "21990"},
+  "listprice": {"flipkart_listprice": "22990","amazon_listprice": "22990"},
+	"img": {"full_image_1": "http://localhost:3000/images/product/vivo-v7-plus.jpg",
+          "full_image_2": "http://localhost:3000/images/product/vivo-v7-plus-2.jpg",
+          "thumb_image_1": "http://localhost:3000/images/product/vivo-v7-plus-t1.jpg",
+          "thumb_image_2": "http://localhost:3000/images/product/vivo-v7-plus-t2.jpg"
+          },
+    "url": {"product_url":"vivo-v7-plus",
+	        "flipkart_url": "https://www.flipkart.com/vivo-v7-matte-black-64-gb/p/itmex3ycdbzjxbnk?pid=MOBEX3YCVHTZT9KA&srno=s_1_1&otracker=search&lid=LSTMOBEX3YCVHTZT9KAXKAIN2&fm=SEARCH&iid=b4a03603-b8e9-431a-87b4-792f78269fe8.MOBEX3YCVHTZT9KA.SEARCH&qH=c26b553b5e480be9&trackingid=muthukris4",
+    "amazon_url": "https://www.amazon.in/Vivo-Matte-Black-Fullview-Display/dp/B07547QKYR/ref=sr_1_2?s=electronics&ie=UTF8&qid=1509096186&sr=1-2&keywords=vivo+v7%2B?tag=onltampor-21"},
+	"description" : {"title_1":"Powerfull Performance","content_1":"V7+'s Qualcomm octa-core CPU and 4GB RAM ensures a smooth and powerful performance. The 64GB ROM (expandable to 256GB) means you have ample storage for all your favorite photos, music and videos. Additionally, Funtouch OS 3.2, which is based on Android 7.1, offers a more exciting user experience and intelligent power-saving features.",
+					"title_2":"Front Camera","content_2":"The V7+ continues Vivo's tradition of revolutionizing phone camera technology, by offering a new way to achieve the perfect selfie. The powerful 24MP camera, combined with Vivo’s exclusive Face Beauty algorithm, offers crystal-clear photos and natural facial enhancement. Portrait Mode allows you to take selfies with a beautiful blurred background.",
+					"title_3":"Hifi-Music","content_3":"Music matters, and it's something we can't live without. It enriches our lives, inspires us, and lifts our spirits. This is why V7+’s fully upgraded AK4376A Hi-Fi audio chip takes mobile audio technology to new levels. Enjoy rich, complex rhythms without ever missing a beat",
+					"title_4":"Extrordinary Features","content_4":"Vivo takes pride in developing inspirational, customer-focused features and the latest V7+ is packed with several, including Smart Split 3.0, App Clone and Face Access.",
+					"title_5":"Smart Split 3.0 ","content_5":"Multi-tasking is easy with the upgraded Smart Split 3.0. If a text message comes in while you’re watching a video, simply click to split the screen in two. You can also simply slide three fingers down the screen to run other applications in split screen mode without pausing your video.",
+					"title_6":"App Clone","content_6":"App Clone helps better separate your professional life from personal life - you can run one app as two, or use two accounts to log into the same social media app.",
+					"title_7":"Face Access","content_7":"Vivo’s new Face Access scans multiple areas of the face, and unlocks after identifying the biological facial features. It’s super simple – just pick up the phone to wake the screen, and Face Access will start immediately to unlock it.",
+					"image_1":"https://www.vivo.com/product/in/v7plus/img/screen5/1.png",
+					"image_2": "https://www.vivo.com/product/in/v7plus/img/screen10_inner/page1/phone@2x.png"
+
+	},
+
+    "specification": {"model_number": "1716",
+		"model_name": "V7+",
+		"sim_type": "Dual Sim",
+		"display_size": "5.99 inch",
+		"operating_system": "Android Nougat 7.1",
+		"processor_type": "Qualcomm Snapdragon 450 Octa Core 1.8 GHz",
+		"processor_core": "Octa Core",
+		"internal_storage": "64 GB",
+		"ram": "4 GB",
+		"expandable_storage": "256 GB",
+		"primary_camera": "16MP",
+		"secondary_camera": "24MP",
+		"network_types": "4G VOLTE, 3G, 2G",
+		"battery": "3225 mAh",
+		"warranty": "Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories"
+	}
 }

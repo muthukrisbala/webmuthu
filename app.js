@@ -9,8 +9,21 @@ var options = {
 };
 
 app.get("/", function(req, res){
-    //res.send("Welcome to my website");
-    res.render("home");
+
+    var MongoClient = require('mongodb').MongoClient;
+    var url = "mongodb://localhost:27001/webmuthu";
+
+    MongoClient.connect(url, function(err, MongoClient) {
+      if (err) throw err;
+        var db = MongoClient.db("webmuthu");
+
+        db.collection("product").find({}).toArray( function(err, result){
+          if (err) throw err;
+            console.log("Result: "+result);
+          db.close();
+          res.render("home",{result:result});
+        });
+      });
 });
 
 app.get("/product/:title", function(req, res){
