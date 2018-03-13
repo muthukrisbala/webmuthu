@@ -9,7 +9,8 @@ var options = {
 };
 
 app.get("/", function(req, res){
-    res.send("Welcome to my website");
+    //res.send("Welcome to my website");
+    res.render("home");
 });
 
 app.get("/product/:title", function(req, res){

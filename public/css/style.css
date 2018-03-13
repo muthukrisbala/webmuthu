@@ -651,7 +651,7 @@ fieldset {
     max-width: 1200px; } }
 
 #content {
-  margin-bottom: 10.714em; }
+/*margin-bottom: 10.714em;*/ }
   #content #primary {
     position: relative;
     float: left;
@@ -4128,7 +4128,8 @@ div.quantity.buttons_added {
 /*  Ads Block
 /*===================================================================================*/
 .ads-block {
-  margin-bottom: 5.286em; }
+/* margin-bottom: 5.286em; */
+margin-top: 2.286em; }
 
 .ad .media {
   background-color: #f5f5f5; }
@@ -5101,7 +5102,7 @@ section.section-product-cards-carousel .owl-carousel .owl-stage-outer {
   position: relative;
   margin-left: -50vw;
   left: 50%;
-  margin-bottom: 85px; }
+/*  margin-bottom: 85px; */ }
   .products-2-1-2 .nav-inline {
     font-size: 1.214em;
     line-height: 1.059em;
@@ -7486,7 +7487,7 @@ div.quantity > label {
     margin-top: 1.786em; }
 
 .single-product .single-product-wrapper {
-  margin-bottom: 6.429em; }
+/*margin-bottom: 6.429em;*/ }
   .single-product .single-product-wrapper .loop-product-categories {
     display: block;
     font-size: 0.857em;
@@ -7813,7 +7814,8 @@ div.quantity > label {
   right: 71px; }
 
 .single-product.full-width .single-product-wrapper {
-  margin-bottom: 11.429em; }
+  /*margin-bottom: 11.429em;
+*/ }
 
 .single-product.full-width .product-images-wrapper div.images > a {
   margin-bottom: 1.214em; }
@@ -7964,7 +7966,7 @@ div.quantity > label {
   margin-left: -50vw;
   left: 50%;
   padding: 2.857em 0;
-  margin-bottom: 5em; }
+/*  margin-bottom: 5em;*/ }
   .electro-tabs ~ div.products > h2 {
     font-size: 1.786em;
     line-height: 1.6em;
