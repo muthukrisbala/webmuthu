@@ -17,7 +17,50 @@
     </div><!-- .brand -->
 
     <div itemprop="description">
-        <ul>
+
+      <!--  Key Speccification Starts -->
+                          <br>
+      <CENTER>  <div class="col-md-12 col-sm-12 " style="border: 1px solid #ddd;border-radius:1em;padding-right:15px;padding-left:15px;
+        position: relative;min-height: 1px;">
+
+              <CENTER><h4 id="keyfeatures">Key Features</h4></CENTER>
+              <br>
+              <div class="row">
+                 <div class="col-xs-4">
+                    <i class="material-icons">memory</i>
+                <h6><%=result.specification.ram %></h6>
+                  </div>
+                                          <div class="col-xs-4">
+                       <i class="material-icons">camera_front</i>
+                 <h6><%=result.specification.primary_camera %></h6>
+                  </div>
+                                          <div class="col-xs-4">
+                       <i  class="material-icons">camera_rear</i>
+                 <h6><%=result.specification.secondary_camera %></h6>
+                                          </div>
+                                 </div>
+
+
+         <div class="row">
+              <div class="col-xs-4">
+                   <i class="material-icons">stay_current_portrait</i>
+             <h6><%=result.specification.display_size %></h6>
+         </div>
+         <div class="col-xs-4">
+              <i class="material-icons">battery_charging_full</i>
+              <h6><%=result.specification.battery %></h6>
+         </div>
+         <div class="col-xs-4">
+              <i class="material-icons">sd_storage</i>
+              <h6><%=result.specification.internal_storage %></h6>
+         </div>
+         </div>
+
+                       </div>
+                     </CENTER>
+
+         <!--  Key Specs Ends -->
+    <!--    <ul>
             <li><%=result.specification.display_size %> Touch Screen </li>
             <li><%=result.specification.operating_system %> OS</li>
             <li><%=result.specification.processor_type %> Processor</li>
@@ -25,6 +68,7 @@
         </ul>
 
         <p><strong>Model Number</strong>: <%=result.specification.model_number %></p>
+      -->
 
     </div>
 
