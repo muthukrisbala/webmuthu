@@ -21,12 +21,12 @@
                 <li class="product">
                     <div class="product-outer">
                         <div class="product-inner">
-                            <span class="loop-product-categories"><a href="product-category.html" rel="tag"><%=result[0].category.parent %></a></span>
-                            <a href="single-product.html">
-                                <h3><%=result[0].title.flipkart_title %></h3>
+                            <span class="loop-product-categories"><a href="product-category.html" rel="tag"><%=result[2].category.parent %></a></span>
+                            <a href="http://www.webmuthu.com/product/<%=result[2].url.product_url %>">
+                                <h3><%=result[2].title.flipkart_title %></h3>
                                 <div class="product-thumbnail">
 
-                                    <img  src="<%=result[0].img.full_image_1 %>" data-echo="<%=result[0].img.full_image_1 %>" style="width:110px; height:210px;" alt="">
+                                    <img  src="<%=result[2].img.full_image_1 %>" data-echo="<%=result[2].img.full_image_1 %>" style="width:110px; height:210px;" alt="">
 
                                 </div>
                             </a>
@@ -34,12 +34,12 @@
                             <div class="price-add-to-cart">
                                 <span class="price">
                                     <span class="electro-price">
-                                      <% if(result[0].listprice.flipkart_listprice>0) {%>
-                                        <ins><span class="amount">&#8377;<%=result[0].offerprice.flipkart_offerprice %></span></ins>
-                                        <del><span class="amount">&#8377;<%=result[0].listprice.flipkart_listprice %></span></del>
+                                      <% if(result[2].listprice.flipkart_listprice>0) {%>
+                                        <ins><span class="amount">&#8377;<%=result[2].offerprice.flipkart_offerprice %></span></ins>
+                                        <del><span class="amount">&#8377;<%=result[2].listprice.flipkart_listprice %></span></del>
                                         <% }else if(result[0].listprice.amazon_listprice>0) { %>
-                                          <ins><span class="amount">&#8377;<%=result[1].offerprice.amazon_offerprice %></span></ins>
-                                          <del><span class="amount">&#8377;<%=result[1].listprice.amazon_listprice %></span></del>
+                                          <ins><span class="amount">&#8377;<%=result[2].offerprice.amazon_offerprice %></span></ins>
+                                          <del><span class="amount">&#8377;<%=result[2].listprice.amazon_listprice %></span></del>
                                         <% } %>
                                     </span>
                                 </span>
@@ -62,22 +62,24 @@
                     <div class="product-outer">
                         <div class="product-inner">
                             <span class="loop-product-categories"><a href="product-category.html" rel="tag"><%=result[1].category.parent %></a></span>
-                            <a href="single-product.html">
-                                <h3><%=result[1].title.product_title %></h3>
+                              <a href="http://www.webmuthu.com/product/<%=result[1].url.product_url %>">
+                                  <% if(result[1].listprice.flipkart_listprice>0) {%>
+                                      <h3><%=result[1].title.flipkart_title %></h3>
+                                  <% }else if(result[1].listprice.amazon_listprice>0) { %>
+                                      <h3><%=result[1].title.amazon_title %></h3>
+                                  <% } %>
                                 <div class="product-thumbnail">
-
                                     <img  src="<%=result[1].img.full_image_1 %>" data-echo="<%=result[1].img.full_image_1 %>" style="width:110px; height:210px;" alt="">
-
                                 </div>
                             </a>
 
                             <div class="price-add-to-cart">
                                 <span class="price">
                                     <span class="electro-price">
-                                      <% if(result[0].listprice.flipkart_listprice>0) {%>
-                                        <ins><span class="amount">&#8377;<%=result[0].offerprice.flipkart_offerprice %></span></ins>
-                                        <del><span class="amount">&#8377;<%=result[0].listprice.flipkart_listprice %></span></del>
-                                        <% }else if(result[0].listprice.amazon_listprice>0) { %>
+                                      <% if(result[1].listprice.flipkart_listprice>0) {%>
+                                        <ins><span class="amount">&#8377;<%=result[1].offerprice.flipkart_offerprice %></span></ins>
+                                        <del><span class="amount">&#8377;<%=result[1].listprice.flipkart_listprice %></span></del>
+                                        <% }else if(result[1].listprice.amazon_listprice>0) { %>
                                           <ins><span class="amount">&#8377;<%=result[1].offerprice.amazon_offerprice %></span></ins>
                                           <del><span class="amount">&#8377;<%=result[1].listprice.amazon_listprice %></span></del>
                                         <% } %>
@@ -104,23 +106,28 @@
                 <li class="last product">
                     <div class="product-outer">
                         <div class="product-inner">
-                            <span class="loop-product-categories"><a href="product-category.html" rel="tag">Smartphones</a></span>
-                            <a href="single-product.html">
-                                <h3>Notebook Black Spire V Nitro  VN7-591G</h3>
+                            <span class="loop-product-categories"><a href="product-category.html" rel="tag"><%=result[0].category.parent %></a></span>
+                            <a href="http://www.webmuthu.com/product/<%=result[0].url.product_url %>">
+                          <CENTER>        <h3><%=result[0].title.flipkart_title %></h3> <CENTER>
                                 <div class="product-thumbnail">
-                                    <img class="wp-post-image" data-echo="../../images/product-2-1-2/main.jpg" src="../../images/blank.gif" alt="">
+                                  <CENTER>  <img  src="<%=result[0].img.full_image_1 %>" data-echo="<%=result[0].img.full_image_1 %>" style="width:260px; height:550px;" alt=""></CENTER>
 
                                 </div>
                             </a>
 
                             <div class="price-add-to-cart">
-                                <span class="price">
+                          <CENTER>      <span class="price">
                                     <span class="electro-price">
-                                        <ins><span class="amount">&#036;1,999.00</span></ins>
-                                        <del><span class="amount">&#036;2,299.00</span></del>
+                                      <% if(result[0].listprice.flipkart_listprice>0) {%>
+                                        <ins><span class="amount">&#8377;<%=result[0].offerprice.flipkart_offerprice %></span></ins>
+                                        <del><span class="amount">&#8377;<%=result[0].listprice.flipkart_listprice %></span></del>
+                                        <% }else if(result[0].listprice.amazon_listprice>0) { %>
+                                          <ins><span class="amount">&#8377;<%=result[0].offerprice.amazon_offerprice %></span></ins>
+                                          <del><span class="amount">&#8377;<%=result[0].listprice.amazon_listprice %></span></del>
+                                        <% } %>
                                     </span>
-                                </span>
-                                <a rel="nofollow" href="single-product.html" class="button add_to_cart_button">Add to cart</a>
+                                </span></CENTER>
+                            <CENTER>    <a rel="nofollow" href="single-product.html" class="button add_to_cart_button">Add to cart</a> </CENTER>
                             </div><!-- /.price-add-to-cart -->
 
                             <div class="hover-area">
@@ -141,24 +148,26 @@
                 <li class="product">
                     <div class="product-outer">
                         <div class="product-inner">
-                            <span class="loop-product-categories"><a href="product-category.html" rel="tag">Smartphones</a></span>
-                            <a href="single-product.html">
-                                <h3>Notebook Black Spire V Nitro  VN7-591G</h3>
+                          <span class="loop-product-categories"><a href="product-category.html" rel="tag"><%=result[3].category.parent %></a></span>
+                          <a href="http://www.webmuthu.com/product/<%=result[3].url.product_url %>">
+                        <CENTER>        <h3><%=result[3].title.flipkart_title %></h3> <CENTER>
                                 <div class="product-thumbnail">
-
-                                    <img class="wp-post-image" data-echo="../../images/product-2-1-2/1.jpg" src="../../images/blank.gif" alt="">
-
-
+                                    <img  src="<%=result[3].img.full_image_1 %>" data-echo="<%=result[3].img.full_image_1 %>" style="width:110px; height:210px;" alt="">
                                 </div>
                             </a>
 
                             <div class="price-add-to-cart">
-                                <span class="price">
-                                    <span class="electro-price">
-                                        <ins><span class="amount">&#036;1,999.00</span></ins>
-                                        <del><span class="amount">&#036;2,299.00</span></del>
-                                    </span>
-                                </span>
+                              <CENTER>      <span class="price">
+                                        <span class="electro-price">
+                                          <% if(result[3].listprice.flipkart_listprice>0) {%>
+                                            <ins><span class="amount">&#8377;<%=result[3].offerprice.flipkart_offerprice %></span></ins>
+                                            <del><span class="amount">&#8377;<%=result[3].listprice.flipkart_listprice %></span></del>
+                                            <% }else if(result[3].listprice.amazon_listprice>0) { %>
+                                              <ins><span class="amount">&#8377;<%=result[3].offerprice.amazon_offerprice %></span></ins>
+                                              <del><span class="amount">&#8377;<%=result[3].listprice.amazon_listprice %></span></del>
+                                            <% } %>
+                                        </span>
+                                    </span></CENTER>
                                 <a rel="nofollow" href="single-product.html" class="button add_to_cart_button">Add to cart</a>
                             </div><!-- /.price-add-to-cart -->
 
@@ -177,24 +186,26 @@
                 <li class="product">
                     <div class="product-outer">
                         <div class="product-inner">
-                            <span class="loop-product-categories"><a href="product-category.html" rel="tag">Smartphones</a></span>
-                            <a href="single-product.html">
-                                <h3>Notebook Black Spire V Nitro  VN7-591G</h3>
+                          <span class="loop-product-categories"><a href="product-category.html" rel="tag"><%=result[4].category.parent %></a></span>
+                          <a href="http://www.webmuthu.com/product/<%=result[4].url.product_url %>">
+                        <CENTER>        <h3><%=result[4].title.flipkart_title %></h3> <CENTER>
                                 <div class="product-thumbnail">
-
-                                    <img class="wp-post-image" data-echo="../../images/product-2-1-2/4.jpg" src="../../images/blank.gif" alt="">
-
-
+                                    <img  src="<%=result[4].img.full_image_1 %>" data-echo="<%=result[4].img.full_image_1 %>" style="width:110px; height:210px;" alt="">
                                 </div>
                             </a>
 
                             <div class="price-add-to-cart">
-                                <span class="price">
-                                    <span class="electro-price">
-                                        <ins><span class="amount">&#036;1,999.00</span></ins>
-                                        <del><span class="amount">&#036;2,299.00</span></del>
-                                    </span>
-                                </span>
+                              <CENTER>      <span class="price">
+                                        <span class="electro-price">
+                                          <% if(result[4].listprice.flipkart_listprice>0) {%>
+                                            <ins><span class="amount">&#8377;<%=result[4].offerprice.flipkart_offerprice %></span></ins>
+                                            <del><span class="amount">&#8377;<%=result[4].listprice.flipkart_listprice %></span></del>
+                                            <% }else if(result[4].listprice.amazon_listprice>0) { %>
+                                              <ins><span class="amount">&#8377;<%=result[4].offerprice.amazon_offerprice %></span></ins>
+                                              <del><span class="amount">&#8377;<%=result[4].listprice.amazon_listprice %></span></del>
+                                            <% } %>
+                                        </span>
+                                    </span></CENTER>
                                 <a rel="nofollow" href="single-product.html" class="button add_to_cart_button">Add to cart</a>
                             </div><!-- /.price-add-to-cart -->
 
@@ -209,8 +220,7 @@
                             </div>
                         </div><!-- /.product-inner -->
                     </div><!-- /.product-outer -->
-                </li>
-            </ul>
+                </li>            </ul>
         </div>
     </div>
 </section>

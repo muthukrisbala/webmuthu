@@ -40,8 +40,6 @@
   "battery": "3225 mAh",
   "warranty": "Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories"
 }
-
-
 },
 //Second Product
 {
@@ -86,5 +84,324 @@
   "network_types": "LTE, FDD/LTE,TDD/WCDMA/GSM(VoLTE)",
   "battery": "3340 mAh",
   "warranty": "NA"
+}
+}
+
+//Third
+
+{
+    "title": {"product_title": "intex aquq s3",
+	          "flipkart_title": "Intex Aqua S3 (Champagne/Champ, 16 GB) (2 GB RAM)",
+			  "amazon_title": "Intex Aqua S3 (Champagne)"},
+	"category":	{ "parent": "mobiles","child": "intex"},
+	"offerprice": {"flipkart_offerprice": 5547.00,"amazon_offerprice": 5199.00},
+  "listprice": {"flipkart_listprice": 5550.00,"amazon_listprice": 5550.00},
+	"img": {"full_image_1": "http://static.webmuthu.com/img/intex-aqua-s3.jpg",
+          "full_image_2": "",
+          "thumb_image_1": "http://static.webmuthu.com/img/intex-aqua-s3.jpg",
+          "thumb_image_2": ""
+          },
+    "url": {"product_url":"intex-aquq-s3",
+	        "flipkart_url": "https://www.flipkart.com/intex-aqua-s3-champagne-champ-16-gb/p/itmevzv2vessca5m?pid=MOBEVZV2EHWBN9WC",
+    "amazon_url": "https://www.amazon.in/Intex-Aqua-S3-Champagne/dp/B071K93RRR"},
+	"description" : {"title_1":"Powerfull Performance","content_1":"V7+'s Qualcomm octa-core CPU and 4GB RAM ensures a smooth and powerful performance. The 64GB ROM (expandable to 256GB) means you have ample storage for all your favorite photos, music and videos. Additionally, Funtouch OS 3.2, which is based on Android 7.1, offers a more exciting user experience and intelligent power-saving features.",
+					"title_2":"Front Camera","content_2":"The V7+ continues Vivo's tradition of revolutionizing phone camera technology, by offering a new way to achieve the perfect selfie. The powerful 24MP camera, combined with Vivo’s exclusive Face Beauty algorithm, offers crystal-clear photos and natural facial enhancement. Portrait Mode allows you to take selfies with a beautiful blurred background.",
+					"title_3":"Hifi-Music","content_3":"Music matters, and it's something we can't live without. It enriches our lives, inspires us, and lifts our spirits. This is why V7+’s fully upgraded AK4376A Hi-Fi audio chip takes mobile audio technology to new levels. Enjoy rich, complex rhythms without ever missing a beat",
+					"title_4":"Extrordinary Features","content_4":"Vivo takes pride in developing inspirational, customer-focused features and the latest V7+ is packed with several, including Smart Split 3.0, App Clone and Face Access.",
+					"title_5":"Smart Split 3.0 ","content_5":"Multi-tasking is easy with the upgraded Smart Split 3.0. If a text message comes in while you’re watching a video, simply click to split the screen in two. You can also simply slide three fingers down the screen to run other applications in split screen mode without pausing your video.",
+					"title_6":"App Clone","content_6":"App Clone helps better separate your professional life from personal life - you can run one app as two, or use two accounts to log into the same social media app.",
+					"title_7":"Face Access","content_7":"Vivo’s new Face Access scans multiple areas of the face, and unlocks after identifying the biological facial features. It’s super simple – just pick up the phone to wake the screen, and Face Access will start immediately to unlock it.",
+					"image_1":"https://www.vivo.com/product/in/v7plus/img/screen5/1.png",
+					"image_2": "https://www.vivo.com/product/in/v7plus/img/screen10_inner/page1/phone@2x.png"
+
+	},
+
+  "specification": {"model_number": "Aqua S3",
+  "model_name": "Aqua S3",
+  "sim_type": "Dual Sim",
+  "display_size": "5.0 inch",
+  "operating_system": "Android Nougat 7.0",
+  "processor_type": "Spreadtrum",
+  "processor_core": "Octa Core",
+  "internal_storage": "16 GB",
+  "ram": "2 GB",
+  "expandable_storage": "64 GB",
+  "primary_camera": "8MP",
+  "secondary_camera": "5MP",
+  "network_types": "4G VOLTE, 3G, 2G",
+  "battery": "2450 mAh",
+  "warranty": "1 Year Mobile warranty and 6 months accessories"
+}
+}
+//Fourth
+{
+    "title": {"product_title": "micromax bharat 4",
+	          "flipkart_title": "Micromax Bharat 4 (Champagne, 16 GB) (1 GB RAM)",
+			  "amazon_title": "Micromax Bharat 4 4g VOLTE"},
+	"category":	{ "parent": "mobiles","child": "micromax"},
+	"offerprice": {"flipkart_offerprice": 5540.00,"amazon_offerprice": 5799.00},
+  "listprice": {"flipkart_listprice": 6000.00,"amazon_listprice": 6000.00},
+	"img": {"full_image_1": "http://static.webmuthu.com/img/micromax-bharat-4.jpg",
+          "full_image_2": "",
+          "thumb_image_1": "http://static.webmuthu.com/img/micromax-bharat-4.jpg",
+          "thumb_image_2": ""
+          },
+    "url": {"product_url":"intex-aquq-s3",
+	        "flipkart_url": "https://www.flipkart.com/micromax-bharat-4-champagne-16-gb/p/itmey7v5xzuhykb9?pid=MOBEY7V5VYBK9QM4",
+    "amazon_url": "https://www.amazon.in/Micromax-Bharat-4-4g-VOLTE/dp/B075V6NLVV/"},
+	"description" : {"title_1":"Powerfull Performance","content_1":"V7+'s Qualcomm octa-core CPU and 4GB RAM ensures a smooth and powerful performance. The 64GB ROM (expandable to 256GB) means you have ample storage for all your favorite photos, music and videos. Additionally, Funtouch OS 3.2, which is based on Android 7.1, offers a more exciting user experience and intelligent power-saving features.",
+					"title_2":"Front Camera","content_2":"The V7+ continues Vivo's tradition of revolutionizing phone camera technology, by offering a new way to achieve the perfect selfie. The powerful 24MP camera, combined with Vivo’s exclusive Face Beauty algorithm, offers crystal-clear photos and natural facial enhancement. Portrait Mode allows you to take selfies with a beautiful blurred background.",
+					"title_3":"Hifi-Music","content_3":"Music matters, and it's something we can't live without. It enriches our lives, inspires us, and lifts our spirits. This is why V7+’s fully upgraded AK4376A Hi-Fi audio chip takes mobile audio technology to new levels. Enjoy rich, complex rhythms without ever missing a beat",
+					"title_4":"Extrordinary Features","content_4":"Vivo takes pride in developing inspirational, customer-focused features and the latest V7+ is packed with several, including Smart Split 3.0, App Clone and Face Access.",
+					"title_5":"Smart Split 3.0 ","content_5":"Multi-tasking is easy with the upgraded Smart Split 3.0. If a text message comes in while you’re watching a video, simply click to split the screen in two. You can also simply slide three fingers down the screen to run other applications in split screen mode without pausing your video.",
+					"title_6":"App Clone","content_6":"App Clone helps better separate your professional life from personal life - you can run one app as two, or use two accounts to log into the same social media app.",
+					"title_7":"Face Access","content_7":"Vivo’s new Face Access scans multiple areas of the face, and unlocks after identifying the biological facial features. It’s super simple – just pick up the phone to wake the screen, and Face Access will start immediately to unlock it.",
+					"image_1":"https://www.vivo.com/product/in/v7plus/img/screen5/1.png",
+					"image_2": "https://www.vivo.com/product/in/v7plus/img/screen10_inner/page1/phone@2x.png"
+
+	},
+
+  "specification": {"model_number": "Q440",
+  "model_name": "	Bharat 4",
+  "sim_type": "Dual Sim",
+  "display_size": "5.0 inch",
+  "operating_system": "Android Nougat 7.0",
+  "processor_type": "MT6737",
+  "processor_core": "Quad Core",
+  "internal_storage": "16 GB",
+  "ram": "1 GB",
+  "expandable_storage": "32 GB",
+  "primary_camera": "5MP",
+  "secondary_camera": "5MP",
+  "network_types": "4G VOLTE, 4G, 3G",
+  "battery": "2500 mAh",
+  "warranty": "Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories"
+}
+}
+
+//Fifth
+{
+    "title": {"product_title": "oppo f3",
+	          "flipkart_title": "OPPO F3 (Gold, 64 GB) (4 GB RAM)",
+			  "amazon_title": "OPPO F3 (Gold)"},
+	"category":	{ "parent": "mobiles","child": "oppo"},
+	"offerprice": {"flipkart_offerprice": 18990.00,"amazon_offerprice": 17995.00},
+  "listprice": {"flipkart_listprice": 19000.00,"amazon_listprice": 19000.00},
+	"img": {"full_image_1": "http://static.webmuthu.com/img/oppo-f3.jpg",
+          "full_image_2": "",
+          "thumb_image_1": "http://static.webmuthu.com/img/oppo-f3.jpg",
+          "thumb_image_2": ""
+          },
+    "url": {"product_url":"oppo-f3",
+	        "flipkart_url": "https://www.flipkart.com/oppo-f3-gold-64-gb/p/itmetgz5vhpx2t2c?pid=MOBETGZ5QQVZF6YC",
+    "amazon_url": "https://www.amazon.in/Oppo-OPPO-F3-Gold/dp/B076F4KN1B"},
+	"description" : {"title_1":"Powerfull Performance","content_1":"V7+'s Qualcomm octa-core CPU and 4GB RAM ensures a smooth and powerful performance. The 64GB ROM (expandable to 256GB) means you have ample storage for all your favorite photos, music and videos. Additionally, Funtouch OS 3.2, which is based on Android 7.1, offers a more exciting user experience and intelligent power-saving features.",
+					"title_2":"Front Camera","content_2":"The V7+ continues Vivo's tradition of revolutionizing phone camera technology, by offering a new way to achieve the perfect selfie. The powerful 24MP camera, combined with Vivo’s exclusive Face Beauty algorithm, offers crystal-clear photos and natural facial enhancement. Portrait Mode allows you to take selfies with a beautiful blurred background.",
+					"title_3":"Hifi-Music","content_3":"Music matters, and it's something we can't live without. It enriches our lives, inspires us, and lifts our spirits. This is why V7+’s fully upgraded AK4376A Hi-Fi audio chip takes mobile audio technology to new levels. Enjoy rich, complex rhythms without ever missing a beat",
+					"title_4":"Extrordinary Features","content_4":"Vivo takes pride in developing inspirational, customer-focused features and the latest V7+ is packed with several, including Smart Split 3.0, App Clone and Face Access.",
+					"title_5":"Smart Split 3.0 ","content_5":"Multi-tasking is easy with the upgraded Smart Split 3.0. If a text message comes in while you’re watching a video, simply click to split the screen in two. You can also simply slide three fingers down the screen to run other applications in split screen mode without pausing your video.",
+					"title_6":"App Clone","content_6":"App Clone helps better separate your professional life from personal life - you can run one app as two, or use two accounts to log into the same social media app.",
+					"title_7":"Face Access","content_7":"Vivo’s new Face Access scans multiple areas of the face, and unlocks after identifying the biological facial features. It’s super simple – just pick up the phone to wake the screen, and Face Access will start immediately to unlock it.",
+					"image_1":"https://www.vivo.com/product/in/v7plus/img/screen5/1.png",
+					"image_2": "https://www.vivo.com/product/in/v7plus/img/screen10_inner/page1/phone@2x.png"
+
+	},
+
+  "specification": {"model_number": "CPH1609",
+  "model_name": "	F3",
+  "sim_type": "Dual Sim",
+  "display_size": "5.5 inch",
+  "operating_system": "Android Marshmallow 6",
+  "processor_type": "Mediatek MT6750T Octa Core 1.5GHz",
+  "processor_core": "Octa Core",
+  "internal_storage": "64 GB",
+  "ram": "4 GB",
+  "expandable_storage": "128 GB",
+  "primary_camera": "13MP",
+  "secondary_camera": "16MP + 8MP",
+  "network_types": "4G,2G, 3G",
+  "battery": "3200 mAh",
+  "warranty": "Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories"
+}
+}
+
+//Sixth
+{
+    "title": {"product_title": "nokia 5",
+	          "flipkart_title": "Nokia 5 (Tempered Blue, 16 GB) (2 GB RAM)",
+			  "amazon_title": "Nokia 5 (Tempered Blue, 16 GB) (2 GB RAM)"},
+	"category":	{ "parent": "mobiles","child": "nokia"},
+	"offerprice": {"flipkart_offerprice": 12744.00,"amazon_offerprice": 12879.00},
+  "listprice": {"flipkart_listprice": 13000.00,"amazon_listprice": 13000.00},
+	"img": {"full_image_1": "http://static.webmuthu.com/img/nokia-5.jpg",
+          "full_image_2": "",
+          "thumb_image_1": "http://static.webmuthu.com/img/nokia-5.jpg",
+          "thumb_image_2": ""
+          },
+    "url": {"product_url":"nokia-5",
+	        "flipkart_url": "https://www.flipkart.com/nokia-5-tempered-blue-16-gb/p/itmezddgxyhwh46a?pid=MOBEVR8XHE424CBV",
+    "amazon_url": "https://www.amazon.in/Nokia-Tempered-Blue-16-RAM/dp/B074XDGV6C"},
+	"description" : {"title_1":"Powerfull Performance","content_1":"V7+'s Qualcomm octa-core CPU and 4GB RAM ensures a smooth and powerful performance. The 64GB ROM (expandable to 256GB) means you have ample storage for all your favorite photos, music and videos. Additionally, Funtouch OS 3.2, which is based on Android 7.1, offers a more exciting user experience and intelligent power-saving features.",
+					"title_2":"Front Camera","content_2":"The V7+ continues Vivo's tradition of revolutionizing phone camera technology, by offering a new way to achieve the perfect selfie. The powerful 24MP camera, combined with Vivo’s exclusive Face Beauty algorithm, offers crystal-clear photos and natural facial enhancement. Portrait Mode allows you to take selfies with a beautiful blurred background.",
+					"title_3":"Hifi-Music","content_3":"Music matters, and it's something we can't live without. It enriches our lives, inspires us, and lifts our spirits. This is why V7+’s fully upgraded AK4376A Hi-Fi audio chip takes mobile audio technology to new levels. Enjoy rich, complex rhythms without ever missing a beat",
+					"title_4":"Extrordinary Features","content_4":"Vivo takes pride in developing inspirational, customer-focused features and the latest V7+ is packed with several, including Smart Split 3.0, App Clone and Face Access.",
+					"title_5":"Smart Split 3.0 ","content_5":"Multi-tasking is easy with the upgraded Smart Split 3.0. If a text message comes in while you’re watching a video, simply click to split the screen in two. You can also simply slide three fingers down the screen to run other applications in split screen mode without pausing your video.",
+					"title_6":"App Clone","content_6":"App Clone helps better separate your professional life from personal life - you can run one app as two, or use two accounts to log into the same social media app.",
+					"title_7":"Face Access","content_7":"Vivo’s new Face Access scans multiple areas of the face, and unlocks after identifying the biological facial features. It’s super simple – just pick up the phone to wake the screen, and Face Access will start immediately to unlock it.",
+					"image_1":"https://www.vivo.com/product/in/v7plus/img/screen5/1.png",
+					"image_2": "https://www.vivo.com/product/in/v7plus/img/screen10_inner/page1/phone@2x.png"
+
+	},
+
+  "specification": {"model_number": "NA",
+  "model_name": "	5",
+  "sim_type": "Dual Sim",
+  "display_size": "5.5 inch",
+  "operating_system": "Android Nougat 7.1.1",
+  "processor_type": "Qualcomm Snapdragon 430",
+  "processor_core": "Octa Core",
+  "internal_storage": "16 GB",
+  "ram": "2 GB",
+  "expandable_storage": "128 GB",
+  "primary_camera": "13MP",
+  "secondary_camera": "8MP",
+  "network_types": "4G VoLTE, UMTS, GSM, 4G LTE, WCDMA",
+  "battery": "3000 mAh",
+  "warranty": "Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories"
+}
+}
+
+//Seventh
+{
+    "title": {"product_title": "redmi 5a",
+	          "flipkart_title": "Redmi 5A (Grey, 16 GB) (2 GB RAM)",
+			  "amazon_title": ""},
+	"category":	{ "parent": "mobiles","child": "nokia"},
+	"offerprice": {"flipkart_offerprice": 4999.00,"amazon_offerprice": 0},
+  "listprice": {"flipkart_listprice": 5000.00,"amazon_listprice": 0},
+	"img": {"full_image_1": "http://static.webmuthu.com/img/redmi-5a.jpg",
+          "full_image_2": "",
+          "thumb_image_1": "http://static.webmuthu.com/img/redmi-5a.jpg",
+          "thumb_image_2": ""
+          },
+    "url": {"product_url":"nokia-5",
+	        "flipkart_url": "https://www.flipkart.com/redmi-5a-grey-16-gb/p/itmfy6cg6a5m7mwh?pid=MOBEZWXESCPGF3GZ",
+    "amazon_url": ""},
+	"description" : {"title_1":"Powerfull Performance","content_1":"V7+'s Qualcomm octa-core CPU and 4GB RAM ensures a smooth and powerful performance. The 64GB ROM (expandable to 256GB) means you have ample storage for all your favorite photos, music and videos. Additionally, Funtouch OS 3.2, which is based on Android 7.1, offers a more exciting user experience and intelligent power-saving features.",
+					"title_2":"Front Camera","content_2":"The V7+ continues Vivo's tradition of revolutionizing phone camera technology, by offering a new way to achieve the perfect selfie. The powerful 24MP camera, combined with Vivo’s exclusive Face Beauty algorithm, offers crystal-clear photos and natural facial enhancement. Portrait Mode allows you to take selfies with a beautiful blurred background.",
+					"title_3":"Hifi-Music","content_3":"Music matters, and it's something we can't live without. It enriches our lives, inspires us, and lifts our spirits. This is why V7+’s fully upgraded AK4376A Hi-Fi audio chip takes mobile audio technology to new levels. Enjoy rich, complex rhythms without ever missing a beat",
+					"title_4":"Extrordinary Features","content_4":"Vivo takes pride in developing inspirational, customer-focused features and the latest V7+ is packed with several, including Smart Split 3.0, App Clone and Face Access.",
+					"title_5":"Smart Split 3.0 ","content_5":"Multi-tasking is easy with the upgraded Smart Split 3.0. If a text message comes in while you’re watching a video, simply click to split the screen in two. You can also simply slide three fingers down the screen to run other applications in split screen mode without pausing your video.",
+					"title_6":"App Clone","content_6":"App Clone helps better separate your professional life from personal life - you can run one app as two, or use two accounts to log into the same social media app.",
+					"title_7":"Face Access","content_7":"Vivo’s new Face Access scans multiple areas of the face, and unlocks after identifying the biological facial features. It’s super simple – just pick up the phone to wake the screen, and Face Access will start immediately to unlock it.",
+					"image_1":"https://www.vivo.com/product/in/v7plus/img/screen5/1.png",
+					"image_2": "https://www.vivo.com/product/in/v7plus/img/screen10_inner/page1/phone@2x.png"
+
+	},
+
+  "specification": {"model_number": "MCI3B",
+  "model_name": "Redmi 5A",
+  "sim_type": "Dual Sim",
+  "display_size": "5 inch",
+  "operating_system": "Android Nougat 7.1.2",
+  "processor_type": "Qualcomm Snapdragon 425",
+  "processor_core": "Quad Core",
+  "internal_storage": "16 GB",
+  "ram": "2 GB",
+  "expandable_storage": "128 GB",
+  "primary_camera": "13MP",
+  "secondary_camera": "5MP",
+  "network_types": "4G VoLTE, UMTS, GSM, 4G LTE, WCDMA",
+  "battery": "3000 mAh",
+  "warranty": "Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories"
+}
+}
+
+//Eight
+{
+    "title": {"product_title": "samsung galaxy j7 prime",
+	          "flipkart_title": "Samsung Galaxy J7 Prime (Black, 16 GB) (3 GB RAM)",
+			  "amazon_title": "Samsung Galaxy J7 Prime Gold (16GB)"},
+	"category":	{ "parent": "mobiles","child": "samsung"},
+	"offerprice": {"flipkart_offerprice": 14400.00,"amazon_offerprice": 15990},
+  "listprice": {"flipkart_listprice": 16000.00,"amazon_listprice": 16000.00},
+	"img": {"full_image_1": "http://static.webmuthu.com/img/samsung-galaxy-j7-prime.jpg",
+          "full_image_2": "",
+          "thumb_image_1": "http://static.webmuthu.com/img/samsung-galaxy-j7-prime.jpg",
+          "thumb_image_2": ""
+          },
+    "url": {"product_url":"samsung-galaxy-j7-prime",
+	        "flipkart_url": "https://www.amazon.in/Samsung-Galaxy-Prime-Gold-16GB/dp/B01LY4V6IM/",
+    "amazon_url": "https://www.amazon.in/Samsung-Galaxy-Prime-Gold-16GB/dp/B01LY4V6IM/"},
+	"description" : {"title_1":"Powerfull Performance","content_1":"V7+'s Qualcomm octa-core CPU and 4GB RAM ensures a smooth and powerful performance. The 64GB ROM (expandable to 256GB) means you have ample storage for all your favorite photos, music and videos. Additionally, Funtouch OS 3.2, which is based on Android 7.1, offers a more exciting user experience and intelligent power-saving features.",
+					"title_2":"Front Camera","content_2":"The V7+ continues Vivo's tradition of revolutionizing phone camera technology, by offering a new way to achieve the perfect selfie. The powerful 24MP camera, combined with Vivo’s exclusive Face Beauty algorithm, offers crystal-clear photos and natural facial enhancement. Portrait Mode allows you to take selfies with a beautiful blurred background.",
+					"title_3":"Hifi-Music","content_3":"Music matters, and it's something we can't live without. It enriches our lives, inspires us, and lifts our spirits. This is why V7+’s fully upgraded AK4376A Hi-Fi audio chip takes mobile audio technology to new levels. Enjoy rich, complex rhythms without ever missing a beat",
+					"title_4":"Extrordinary Features","content_4":"Vivo takes pride in developing inspirational, customer-focused features and the latest V7+ is packed with several, including Smart Split 3.0, App Clone and Face Access.",
+					"title_5":"Smart Split 3.0 ","content_5":"Multi-tasking is easy with the upgraded Smart Split 3.0. If a text message comes in while you’re watching a video, simply click to split the screen in two. You can also simply slide three fingers down the screen to run other applications in split screen mode without pausing your video.",
+					"title_6":"App Clone","content_6":"App Clone helps better separate your professional life from personal life - you can run one app as two, or use two accounts to log into the same social media app.",
+					"title_7":"Face Access","content_7":"Vivo’s new Face Access scans multiple areas of the face, and unlocks after identifying the biological facial features. It’s super simple – just pick up the phone to wake the screen, and Face Access will start immediately to unlock it.",
+					"image_1":"https://www.vivo.com/product/in/v7plus/img/screen5/1.png",
+					"image_2": "https://www.vivo.com/product/in/v7plus/img/screen10_inner/page1/phone@2x.png"
+	},
+  "specification": {"model_number": "SM-G610FZKDINS",
+  "model_name": "Galaxy J7 Prime",
+  "sim_type": "Dual Sim",
+  "display_size": "5.5 inch",
+  "operating_system": "Android Marshmallow 6",
+  "processor_type": "Exynos 7870 Octa Core 1.6GHz",
+  "processor_core": "Octa Core",
+  "internal_storage": "16 GB",
+  "ram": "3 GB",
+  "expandable_storage": "256 GB",
+  "primary_camera": "13MP",
+  "secondary_camera": "8MP",
+  "network_types": "4G 3G, 2G",
+  "battery": "3300 mAh",
+  "warranty": "Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories"
+}
+}
+
+//Nineth
+
+{
+    "title": {"product_title": "vivo y69",
+	          "flipkart_title": "Vivo Y69",
+			  "amazon_title": "Vivo Y69"},
+	"category":	{ "parent": "mobiles","child": "vivo"},
+	"offerprice": {"flipkart_offerprice": 14900.00,"amazon_offerprice": 14900.00},
+  "listprice": {"flipkart_listprice": 14900.00,"amazon_listprice": 14900.00},
+	"img": {"full_image_1": "http://static.webmuthu.com/img/vivo_y69.jpg",
+          "full_image_2": "",
+          "thumb_image_1": "http://static.webmuthu.com/img/vivo_y69.jpg",
+          "thumb_image_2": ""
+          },
+    "url": {"product_url":"vivo-y69",
+	        "flipkart_url": "https://www.flipkart.com/vivo-y69-gold-32-gb/p/itmexcrcrcgxgqyv?pid=MOBEWW2DHYDRNZVB",
+    "amazon_url": "https://www.amazon.in/Vivo-Y69-Champagne-Gold-Offers/dp/B0751C215W/"},
+	"description" : {"title_1":"Powerfull Performance","content_1":"V7+'s Qualcomm octa-core CPU and 4GB RAM ensures a smooth and powerful performance. The 64GB ROM (expandable to 256GB) means you have ample storage for all your favorite photos, music and videos. Additionally, Funtouch OS 3.2, which is based on Android 7.1, offers a more exciting user experience and intelligent power-saving features.",
+					"title_2":"Front Camera","content_2":"The V7+ continues Vivo's tradition of revolutionizing phone camera technology, by offering a new way to achieve the perfect selfie. The powerful 24MP camera, combined with Vivo’s exclusive Face Beauty algorithm, offers crystal-clear photos and natural facial enhancement. Portrait Mode allows you to take selfies with a beautiful blurred background.",
+					"title_3":"Hifi-Music","content_3":"Music matters, and it's something we can't live without. It enriches our lives, inspires us, and lifts our spirits. This is why V7+’s fully upgraded AK4376A Hi-Fi audio chip takes mobile audio technology to new levels. Enjoy rich, complex rhythms without ever missing a beat",
+					"title_4":"Extrordinary Features","content_4":"Vivo takes pride in developing inspirational, customer-focused features and the latest V7+ is packed with several, including Smart Split 3.0, App Clone and Face Access.",
+					"title_5":"Smart Split 3.0 ","content_5":"Multi-tasking is easy with the upgraded Smart Split 3.0. If a text message comes in while you’re watching a video, simply click to split the screen in two. You can also simply slide three fingers down the screen to run other applications in split screen mode without pausing your video.",
+					"title_6":"App Clone","content_6":"App Clone helps better separate your professional life from personal life - you can run one app as two, or use two accounts to log into the same social media app.",
+					"title_7":"Face Access","content_7":"Vivo’s new Face Access scans multiple areas of the face, and unlocks after identifying the biological facial features. It’s super simple – just pick up the phone to wake the screen, and Face Access will start immediately to unlock it.",
+					"image_1":"https://www.vivo.com/product/in/v7plus/img/screen5/1.png",
+					"image_2": "https://www.vivo.com/product/in/v7plus/img/screen10_inner/page1/phone@2x.png"
+	},
+  "specification": {"model_number": "Vivo 1714",
+  "model_name": "y69",
+  "sim_type": "Dual Sim",
+  "display_size": "5.5 inch",
+  "operating_system": "Android Nougat 7.0",
+  "processor_type": "Mediatek MT6750 Octa Core 1.5GHz",
+  "processor_core": "Octa Core",
+  "internal_storage": "32 GB",
+  "ram": "3 GB",
+  "expandable_storage": "256 GB",
+  "primary_camera": "13MP",
+  "secondary_camera": "16MP",
+  "network_types": "4G, 4G VOLTE, 2G, 3G",
+  "battery": "3000 mAh",
+  "warranty": "1 Year for Mobile & 6 Months for Accessories"
 }
 }
