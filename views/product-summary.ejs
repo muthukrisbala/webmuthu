@@ -31,7 +31,11 @@
     <div itemprop="offers">
 
         <p class="price">
+         <% if(result.listprice.flipkart_listprice>0){ %>
             <span class="electro-price"><del><span class="amount">&#8377;<%=result.listprice.flipkart_listprice %></span></del> <ins><span class="amount">&#8377;<%=result.offerprice.flipkart_offerprice %></span></ins></span>
+         <% }else if(result.listprice.amazon_listprice>0){ %>
+            <span class="electro-price"><del><span class="amount">&#8377;<%=result.listprice.amazon_listprice %></span></del> <ins><span class="amount">&#8377;<%=result.offerprice.amazon_offerprice %></span></ins></span>
+            <%  } %>
             <button type="submit" class="affiliatebutton" >Buy for Best Price</button>
         </p>
 

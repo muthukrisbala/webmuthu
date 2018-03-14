@@ -34,8 +34,13 @@
                             <div class="price-add-to-cart">
                                 <span class="price">
                                     <span class="electro-price">
+                                      <% if(result[0].listprice.flipkart_listprice>0) {%>
                                         <ins><span class="amount">&#8377;<%=result[0].offerprice.flipkart_offerprice %></span></ins>
                                         <del><span class="amount">&#8377;<%=result[0].listprice.flipkart_listprice %></span></del>
+                                        <% }else if(result[0].listprice.amazon_listprice>0) { %>
+                                          <ins><span class="amount">&#8377;<%=result[1].offerprice.amazon_offerprice %></span></ins>
+                                          <del><span class="amount">&#8377;<%=result[1].listprice.amazon_listprice %></span></del>
+                                        <% } %>
                                     </span>
                                 </span>
                                 <a rel="nofollow" href="http://localhost:3000/product/vivo-v7-plus" class="button add_to_cart_button">View Details</a>
@@ -56,12 +61,12 @@
                 <li class="product">
                     <div class="product-outer">
                         <div class="product-inner">
-                            <span class="loop-product-categories"><a href="product-category.html" rel="tag">Smartphones</a></span>
+                            <span class="loop-product-categories"><a href="product-category.html" rel="tag"><%=result[1].category.parent %></a></span>
                             <a href="single-product.html">
-                                <h3>Notebook Black Spire V Nitro  VN7-591G</h3>
+                                <h3><%=result[1].title.product_title %></h3>
                                 <div class="product-thumbnail">
 
-                                    <img data-echo="../../images/product-2-1-2/4.jpg" src="../../images/blank.gif" alt="">
+                                    <img  src="<%=result[1].img.full_image_1 %>" data-echo="<%=result[1].img.full_image_1 %>" style="width:110px; height:210px;" alt="">
 
                                 </div>
                             </a>
@@ -69,8 +74,13 @@
                             <div class="price-add-to-cart">
                                 <span class="price">
                                     <span class="electro-price">
-                                        <ins><span class="amount">&#036;1,999.00</span></ins>
-                                        <del><span class="amount">&#036;2,299.00</span></del>
+                                      <% if(result[0].listprice.flipkart_listprice>0) {%>
+                                        <ins><span class="amount">&#8377;<%=result[0].offerprice.flipkart_offerprice %></span></ins>
+                                        <del><span class="amount">&#8377;<%=result[0].listprice.flipkart_listprice %></span></del>
+                                        <% }else if(result[0].listprice.amazon_listprice>0) { %>
+                                          <ins><span class="amount">&#8377;<%=result[1].offerprice.amazon_offerprice %></span></ins>
+                                          <del><span class="amount">&#8377;<%=result[1].listprice.amazon_listprice %></span></del>
+                                        <% } %>
                                     </span>
                                 </span>
                                 <a rel="nofollow" href="single-product.html" class="button add_to_cart_button">Add to cart</a>

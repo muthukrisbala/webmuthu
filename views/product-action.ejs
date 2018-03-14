@@ -6,6 +6,7 @@
 
             <table >
                 <tbody>
+                  <% if(result.title.flipkart_title.length>0){  %>
                     <tr>
                         <td ><img src="../../images/brands/fk-logo.jpg" data-echo="../../images/brands/fk-logo.jpg" class="img-responsive" alt="" width="120" height="75"></td>
                         <td style="font-weight: bold;"><%=result.title.flipkart_title %></td>
@@ -13,6 +14,8 @@
                         <td style="font-weight: bold;">&#8377;<%=result.offerprice.flipkart_offerprice %></td>
                         <td><a href=<%=result.url.flipkart_url %> ><button type="submit" class="affiliatebutton">View</button></a></td>
                     </tr>
+                    <% } %>
+                    <% if(result.title.amazon_title.length>0){  %>
                     <tr>
                         <td ><img src="../../images/brands/amazon-logo.jpg" data-echo="../../images/brands/amazon-logo.jpg" class="img-responsive" alt="" width="120" height="75"></td>
                         <td style="font-weight: bold;"><%=result.title.amazon_title %></td>
@@ -20,6 +23,7 @@
                         <td style="font-weight: bold;">&#8377;<%=result.offerprice.amazon_offerprice %></td>
                         <td><a href=<%=result.url.amazon_url %>><button type="submit" class="affiliatebutton">View</button></a></td>
                     </tr>
+                  <% } %>
                 </tbody>
             </table>
 
