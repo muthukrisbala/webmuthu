@@ -28,6 +28,7 @@ app.get("/", function(req, res){
 
 app.get("/product/:title", function(req, res){
   //  var category=req.params.category;
+  //Comment
     var prodtitle=req.params.title;
     prodtitle=prodtitle.replace(/-/g,' ');
     console.log(prodtitle);
