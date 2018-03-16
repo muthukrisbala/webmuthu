@@ -86,9 +86,7 @@
   "warranty": "NA"
 }
 }
-
 //Third
-
 {
     "title": {"product_title": "intex aquq s3",
 	          "flipkart_title": "Intex Aqua S3 (Champagne/Champ, 16 GB) (2 GB RAM)",
@@ -178,7 +176,6 @@
   "warranty": "Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories"
 }
 }
-
 //Fifth
 {
     "title": {"product_title": "oppo f3",
@@ -224,7 +221,6 @@
   "warranty": "Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories"
 }
 }
-
 //Sixth
 {
     "title": {"product_title": "nokia 5",
@@ -270,7 +266,6 @@
   "warranty": "Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories"
 }
 }
-
 //Seventh
 {
     "title": {"product_title": "redmi 5a",
@@ -316,7 +311,6 @@
   "warranty": "Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories"
 }
 }
-
 //Eight
 {
     "title": {"product_title": "samsung galaxy j7 prime",
@@ -360,9 +354,7 @@
   "warranty": "Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories"
 }
 }
-
 //Nineth
-
 {
     "title": {"product_title": "vivo y69",
 	          "flipkart_title": "Vivo Y69",
@@ -405,3 +397,14 @@
   "warranty": "1 Year for Mobile & 6 Months for Accessories"
 }
 }
+
+
+
+db.product.updateMany({"category.parent":"mobiles" },
+   {
+      $set: {
+       "description.image_1": "http://static.webmuthu.com/img/1.png",
+          "description.image_2": "http://static.webmuthu.com/img/phone@2x.png"
+     }
+   }
+)
