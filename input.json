@@ -1,4 +1,4 @@
-{
+db.product.insertMany([{
     "title": {"product_title": "vivo v7 plus",
 	          "flipkart_title": "VIVO V7+ (Matte Black, 64 GB)  (4 GB RAM)",
 			  "amazon_title": "Vivo V7+ (Matte Black, Fullview Display)"},
@@ -41,7 +41,6 @@
   "warranty": "Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories"
 }
 },
-//Second Product
 {
     "title": {"product_title": "honor 7x",
 	          "flipkart_title": "",
@@ -85,8 +84,7 @@
   "battery": "3340 mAh",
   "warranty": "NA"
 }
-}
-//Third
+},
 {
     "title": {"product_title": "intex aquq s3",
 	          "flipkart_title": "Intex Aqua S3 (Champagne/Champ, 16 GB) (2 GB RAM)",
@@ -130,8 +128,7 @@
   "battery": "2450 mAh",
   "warranty": "1 Year Mobile warranty and 6 months accessories"
 }
-}
-//Fourth
+},
 {
     "title": {"product_title": "micromax bharat 4",
 	          "flipkart_title": "Micromax Bharat 4 (Champagne, 16 GB) (1 GB RAM)",
@@ -175,8 +172,7 @@
   "battery": "2500 mAh",
   "warranty": "Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories"
 }
-}
-//Fifth
+},
 {
     "title": {"product_title": "oppo f3",
 	          "flipkart_title": "OPPO F3 (Gold, 64 GB) (4 GB RAM)",
@@ -220,8 +216,7 @@
   "battery": "3200 mAh",
   "warranty": "Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories"
 }
-}
-//Sixth
+},
 {
     "title": {"product_title": "nokia 5",
 	          "flipkart_title": "Nokia 5 (Tempered Blue, 16 GB) (2 GB RAM)",
@@ -265,8 +260,7 @@
   "battery": "3000 mAh",
   "warranty": "Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories"
 }
-}
-//Seventh
+},
 {
     "title": {"product_title": "redmi 5a",
 	          "flipkart_title": "Redmi 5A (Grey, 16 GB) (2 GB RAM)",
@@ -311,7 +305,7 @@
   "warranty": "Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories"
 }
 }
-//Eight
+,
 {
     "title": {"product_title": "samsung galaxy j7 prime",
 	          "flipkart_title": "Samsung Galaxy J7 Prime (Black, 16 GB) (3 GB RAM)",
@@ -354,7 +348,7 @@
   "warranty": "Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories"
 }
 }
-//Nineth
+,
 {
     "title": {"product_title": "vivo y69",
 	          "flipkart_title": "Vivo Y69",
@@ -396,8 +390,7 @@
   "battery": "3000 mAh",
   "warranty": "1 Year for Mobile & 6 Months for Accessories"
 }
-}
-
+}])
 
 
 db.product.updateMany({"category.parent":"mobiles" },
